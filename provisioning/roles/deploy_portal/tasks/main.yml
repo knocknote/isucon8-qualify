@@ -1,0 +1,21 @@
+---
+- name: deploy torb/portal
+  become: yes
+  become_user: isucon
+  synchronize:
+    src: ../../../../portal
+    dest: /home/isucon/torb/
+    recursive: yes
+    rsync_opts:
+      - "--exclude=local"
+      - "--exclude=log"
+
+- name: chown torb/portal
+  become: yes
+  become_user: root
+  file:
+    dest: /home/isucon/torb/portal
+    owner: isucon
+    group: isucon
+    mode: u=rwX,g=rX,o=rX
+    recurse: yes

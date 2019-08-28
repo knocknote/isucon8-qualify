@@ -1,0 +1,328 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/dgrijalva/jwt-go",
+			"repository": "https://github.com/dgrijalva/jwt-go",
+			"revision": "0b96aaa707760d6ab28d9b9d1913ff5993328bae",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-sql-driver/mysql",
+			"repository": "https://github.com/go-sql-driver/mysql",
+			"revision": "99ff426eb706cffe92ff3d058e168b278cabf7c7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gomodule/redigo",
+			"repository": "https://github.com/gomodule/redigo",
+			"revision": "574c33c3df387eb8f255c59a08c50793ec33bafa",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/context",
+			"repository": "https://github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/securecookie",
+			"repository": "https://github.com/gorilla/securecookie",
+			"revision": "3a8eb0de07814569f0bdadffc60dda1668de90bd",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/sessions",
+			"repository": "https://github.com/gorilla/sessions",
+			"revision": "03b6f63cc43ef9c7240a635a5e22b13180e822b8",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/juju/errors",
+			"repository": "https://github.com/juju/errors",
+			"revision": "e65537c515d77e35697c471d6c2755375cb3adc4",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/bytes2",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/bytes2"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/hack",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/hack"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/sqlparser",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/sqlparser"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/sqltypes",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/sqltypes"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/ast",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/ast"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/model",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/model"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/mysql",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/mysql"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/sessionctx/stmtctx",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/sessionctx/stmtctx"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/terror",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/terror"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/types",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/types"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/auth",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/auth"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/charset",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/charset"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/chunk",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/chunk"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/format",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/format"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/hack",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/hack"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/dependency/util/memory",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/dependency/util/memory"
+		},
+		{
+			"importpath": "github.com/knocknote/vitess-sqlparser/tidbparser/parser",
+			"repository": "https://github.com/knocknote/vitess-sqlparser",
+			"revision": "1003c43917a3ddbe167e102b99020cefacdd7e0c",
+			"branch": "develop",
+			"path": "/tidbparser/parser"
+		},
+		{
+			"importpath": "github.com/labstack/echo",
+			"repository": "https://github.com/labstack/echo",
+			"revision": "74f9806b34424e53aa1ad066d5219d7eab3a3b6c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/labstack/echo-contrib/session",
+			"repository": "https://github.com/labstack/echo-contrib",
+			"revision": "93dd5f30d5815757ef3cfd307614956c4c59d483",
+			"branch": "master",
+			"path": "/session"
+		},
+		{
+			"importpath": "github.com/labstack/echo/middleware",
+			"repository": "https://github.com/labstack/echo",
+			"revision": "688ab2bec63ffbfe80f4a82449c232103041e2f3",
+			"branch": "master",
+			"path": "/middleware"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/bytes",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "2a618302b929cc20862dda3aa6f02f64dbe740dd",
+			"branch": "master",
+			"path": "/bytes"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/color",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "2a618302b929cc20862dda3aa6f02f64dbe740dd",
+			"branch": "master",
+			"path": "/color"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/log",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "2a618302b929cc20862dda3aa6f02f64dbe740dd",
+			"branch": "master",
+			"path": "/log"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/random",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "2a618302b929cc20862dda3aa6f02f64dbe740dd",
+			"branch": "master",
+			"path": "/random"
+		},
+		{
+			"importpath": "github.com/lestrrat-go/bufferpool",
+			"repository": "https://github.com/lestrrat-go/bufferpool",
+			"revision": "e7784e1b3e37191cf8ffaf14170f2703cd96c2cd",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/lestrrat-go/msgpack",
+			"repository": "https://github.com/lestrrat-go/msgpack",
+			"revision": "ae9785e6759a315e467379c1507ae488883b1be5",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-colorable",
+			"repository": "https://github.com/mattn/go-colorable",
+			"revision": "efa589957cd060542a26d2dd7832fd6a6c6c3ade",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-isatty",
+			"repository": "https://github.com/mattn/go-isatty",
+			"revision": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/pkg/errors",
+			"repository": "https://github.com/pkg/errors",
+			"revision": "27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/rs/xid",
+			"repository": "https://github.com/rs/xid",
+			"revision": "ba6f703301d6c14cbc05faa3b512058f2304e16c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/rs/zerolog",
+			"repository": "https://github.com/rs/zerolog",
+			"revision": "acf3980132bfcdc48638724e6e3d9e5749b85999",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/valyala/bytebufferpool",
+			"repository": "https://github.com/valyala/bytebufferpool",
+			"revision": "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/valyala/fasttemplate",
+			"repository": "https://github.com/valyala/fasttemplate",
+			"revision": "dcecefd839c4193db0d35b88ec65b4c12d360ab0",
+			"branch": "master"
+		},
+		{
+			"importpath": "go.knocknote.io/rapidash",
+			"repository": "go.knocknote.io/rapidash",
+			"revision": "83f0e543f0eb44d9e90efd1b022d2d5f8ede0449",
+			"branch": "HEAD"
+		},
+		{
+			"importpath": "golang.org/x/crypto/acme",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "614d502a4dac94afa3a6ce146bd1736da82514c6",
+			"branch": "master",
+			"path": "/acme"
+		},
+		{
+			"importpath": "golang.org/x/crypto/acme/autocert",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "614d502a4dac94afa3a6ce146bd1736da82514c6",
+			"branch": "master",
+			"path": "/acme/autocert"
+		},
+		{
+			"importpath": "golang.org/x/text/encoding",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "342b2e1fbaa52c93f31447ad2c6abc048c63e475",
+			"branch": "master",
+			"path": "/encoding"
+		},
+		{
+			"importpath": "golang.org/x/text/internal/utf8internal",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "342b2e1fbaa52c93f31447ad2c6abc048c63e475",
+			"branch": "master",
+			"path": "/internal/utf8internal"
+		},
+		{
+			"importpath": "golang.org/x/text/runes",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "342b2e1fbaa52c93f31447ad2c6abc048c63e475",
+			"branch": "master",
+			"path": "/runes"
+		},
+		{
+			"importpath": "golang.org/x/text/transform",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "342b2e1fbaa52c93f31447ad2c6abc048c63e475",
+			"branch": "master",
+			"path": "/transform"
+		},
+		{
+			"importpath": "golang.org/x/xerrors",
+			"repository": "https://go.googlesource.com/xerrors",
+			"revision": "a985d3407aa71f30cf86696ee0a2f409709f22e1",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"branch": "master"
+		}
+	]
+}

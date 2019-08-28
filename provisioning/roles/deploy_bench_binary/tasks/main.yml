@@ -1,0 +1,10 @@
+---
+- name: deploy torb/bench binary
+  become: yes
+  become_user: isucon
+  copy:
+    src: ../../../../bench/bin.Linux.x86_64/bench
+    dest: /home/isucon/torb/bench/bin/bench
+    owner: isucon
+    group: isucon
+    mode: 0755

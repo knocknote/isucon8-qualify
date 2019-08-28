@@ -1,0 +1,8 @@
+---
+- name: Build bench
+  become: yes
+  become_user: isucon
+  args:
+    chdir: /home/isucon/torb/bench
+  shell:
+    bash -lc "make clean && make deps && make build"
